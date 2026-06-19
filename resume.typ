@@ -54,7 +54,7 @@
 
 #v(0.6em)
 
-Senior Ruby on Rails engineer with 8+ years shipping and running production apps, from Rails 5 to 8, including several major-version upgrades on older systems. Hands on the code while leading: backend services and APIs, frontend integration, Docker and AWS deploys, and keeping an eye on how the app behaves once it is live (Prometheus metrics, structured logs, call-level tracking of LLM usage). B.Sc. in Computer Science from the University of São Paulo (USP). Has led small teams (3–8 people) without stepping away from daily coding; now focused on senior remote roles on English\u{2011}speaking teams across overlapping timezones.
+Senior Ruby on Rails engineer with 8+ years shipping and running production apps, from Rails 5 to 8, including several major-version upgrades on older systems. Hands on the code while leading: backend services and APIs, frontend integration, Docker and AWS deploys, and keeping an eye on how the app behaves once it is live (Prometheus metrics, structured logs, call-level tracking of LLM usage). B.Sc. in Computer Science from the University of São Paulo (USP). Has led small teams (3–8 people) without stepping away from daily coding; now focused on senior remote backend roles.
 
 // ---- contact ------------------------------------------------------
 #section[Contact]
@@ -106,18 +106,18 @@ Senior Ruby on Rails engineer with 8+ years shipping and running production apps
 // ---- experience ---------------------------------------------------
 #section[Professional Experience]
 
-#role[Senior Engineer / Tech Lead (squad of 3)][AdaTech][May 2025 – Nov 2025]
+#role[Senior Engineer / Tech Lead (squad of 3–4)][AdaTech][May 2025 – Nov 2025]
 - Brought in as a senior engineer to stabilize a learning platform with AI features (recruiting and training) on a fixed six-month engagement.
 - Pulled a scattered set of microservices into one coherent product by adding a clear boundary layer (a BFF), reusing existing services instead of rewriting them. Owned the service contracts and API design, bringing modernization habits from prior Rails work (clear boundaries, contract tests) to a TypeScript and Express stack.
 - Shipped AI-backed chat and guided-interview features (Gemini, OpenAI) with per-call tracking of token use, cost, and model on Prometheus and Grafana, so the team could see what the AI features actually cost.
 #stack[TypeScript, Express, Next.js, Docker, Linux, MySQL, DynamoDB, LLM APIs.]
 
 #v(0.6em)
-#role[Senior Engineer / Tech Lead (team of 8)][ByCoders (contracted to Locaweb, a Brazilian web-hosting provider)][Apr 2024 – May 2025]
+#role[Senior Engineer / Tech Lead (squad of 8)][ByCoders (contracted to Locaweb, a Brazilian web-hosting provider)][Apr 2024 – May 2025]
 - Senior Rails engineer on two product teams; set technical direction while writing code every day.
 - Upgraded and cleaned up older Rails systems, including major-version upgrades from Rails 5 and 6 to 7.
 - Added detailed latency tracking to a Rails service so the team could see which upstream dependency was slowing each response, down to the path and query rather than just the host. Pinpointed slow integrations across the billing, usage, availability, and notifications services.
-- Built and ran the background message flows that let separate Rails services notify each other and hand off work.
+- Built a lightweight cross-app messaging layer using Sidekiq over a shared Redis instance between two separate Rails apps, letting them notify each other and hand off work; scoped a later migration to a dedicated pub/sub (RabbitMQ).
 - Modernized the Rails 7 server-rendered UI with Hotwire (Turbo, Stimulus): lazy-loaded and modal content, live partial updates, replacing old jQuery and CoffeeScript.
 - Set engineering standards (API versioning, security and code-review checklists, release scoping) and prioritized technical debt by business impact, not backlog age.
 #stack[Ruby on Rails, Ruby, RSpec, Sidekiq, REST APIs, JavaScript, TypeScript, Vue.js, Docker, Linux, PostgreSQL, MongoDB, Redis, Prometheus.]
@@ -131,14 +131,14 @@ Senior Ruby on Rails engineer with 8+ years shipping and running production apps
 #stack[Ruby on Rails, Ruby, TypeScript, Vue.js, Python, Django, Docker, PostgreSQL, MongoDB, Redis.]
 
 #v(0.6em)
-#role[Senior Engineer][CPmídias / Jornal Brasil de Fato (national news outlet)][Feb 2020 – Feb 2023]
+#role[Senior Engineer / Tech Lead (squad of 3–4)][CPmídias / Jornal Brasil de Fato (national news outlet)][Feb 2020 – Feb 2023]
 - Senior Rails engineer on the publishing platform for a national independent news outlet. Added edge caching (Cloudflare) and tuned per-page cache lifetimes, with an automatic refresh on publish or update so editors saw changes right away. During the 2022 Brazilian general election the site absorbed roughly 100× its normal traffic on the same infrastructure, no scale-out, no extra spend.
 - Found and fixed slow database queries on an inherited Postgres database with few indexes: added the missing indexes, pre-computed heavy analytics queries, and ran migrations on busy tables (articles, publications) with no downtime.
 - Led the small dev team as IT lead: technical decisions, estimates, agile cadence, and mentoring junior engineers through pairing and code review.
 #stack[Ruby on Rails, Ruby, TypeScript, Nest.js, WordPress, Docker, Linux, AWS, PostgreSQL, MongoDB, Redis.]
 
 #v(0.6em)
-#role[Senior Engineer / Tech Lead (team of 4–6)][Refinaria de Dados][Dec 2018 – Feb 2020]
+#role[Senior Engineer / Tech Lead (squad of 4–6)][Refinaria de Dados][Dec 2018 – Feb 2020]
 - Tech lead for a set of Rails and Node services that turned data-science results on large client datasets into client dashboards and internal tools for the data team to publish and curate findings.
 - Designed the SQL and NoSQL databases around how the analytics were read (large, read-heavy queries); moved report generation and CSV/PDF exports into background jobs so long tasks did not slow normal requests.
 - Owned the AWS infrastructure end to end (EC2, RDS Postgres, S3, Route 53) and the production on-call rotation; first responder for incidents across the Rails apps, Node services, and data pipelines.
@@ -166,5 +166,4 @@ Senior Ruby on Rails engineer with 8+ years shipping and running production apps
 // ---- current ------------------------------------------------------
 #section[Current Focus]
 
-- Career break since Jan 2026 to transition into international remote roles.
-- Study focus: data structures and algorithms, system design, Ruby on Rails internals, and English fluency (target: C1).
+- Career break since Jan 2026: focused study and upskilling in system design, data structures and algorithms, Ruby on Rails internals, and English fluency (target: C1).

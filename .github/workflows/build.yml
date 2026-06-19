@@ -27,17 +27,23 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
 
-      - name: Compile resume
-        run: typst compile resume.typ resume.pdf --font-path ~/.fontist/fonts
+      - name: Compile resumes
+        run: |
+          typst compile resume.typ resume.pdf --font-path ~/.fontist/fonts
+          typst compile resume-pt-br.typ resume-pt-br.pdf --font-path ~/.fontist/fonts
 
-      - name: Upload PDF artifact
+      - name: Upload PDF artifacts
         uses: actions/upload-artifact@v4
         with:
           name: resume
-          path: resume.pdf
+          path: |
+            resume.pdf
+            resume-pt-br.pdf
 
       - name: Release on tag
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
-          files: resume.pdf
+          files: |
+            resume.pdf
+            resume-pt-br.pdf
