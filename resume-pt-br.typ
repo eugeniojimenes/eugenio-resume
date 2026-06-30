@@ -55,7 +55,7 @@
 
 #v(0.6em)
 
-Engenheiro de Software Sênior especializado em Ruby on Rails, com mais de 8 anos de experiência entregando e mantendo aplicações em produção, de Rails 5 a Rails 8, incluindo diversas atualizações de versão major em sistemas legados. Experiência hands-on em desenvolvimento de serviços backend e APIs, integração com frontend, deploys com Docker e AWS, além de observabilidade em produção com métricas Prometheus, logs estruturados e rastreamento de uso de LLMs por chamada. Bacharel em Ciência da Computação pela Universidade de São Paulo (USP). Experiência liderando pequenos times de 3 a 8 pessoas sem se afastar da atuação hands-on; atualmente busca posições remotas sênior com foco em backend.
+Engenheiro de Software Sênior especializado em Ruby on Rails, com mais de 8 anos de experiência entregando e mantendo aplicações em produção, de Rails 5 a Rails 8, incluindo diversas atualizações de versão major em sistemas legados. Experiência hands-on em desenvolvimento de serviços backend e APIs, integração com frontend, deploys com Docker e AWS, além de observabilidade em produção com métricas Prometheus, logs estruturados e rastreamento de uso de LLMs por chamada. Bacharel em Ciência da Computação pela Universidade de São Paulo (USP). Experiência liderando pequenos times de 3 a 8 pessoas sem se afastar da atuação hands-on. Buscando atualmente posições remotas sênior full-stack com foco em backend.
 
 // ---- contact ------------------------------------------------------
 #section[Contato]
@@ -76,7 +76,7 @@ Engenheiro de Software Sênior especializado em Ruby on Rails, com mais de 8 ano
     - *Ruby on Rails*: 8+ anos (Rails 5 ao 8, incluindo upgrades)
     - *Ruby*: 8+ anos (RSpec, Sidekiq, ActiveRecord, Hotwire/Turbo, ViewComponent)
     - *JavaScript / TypeScript*: 6+ anos
-    - *Vue.js*: 1+ ano
+    - *React / Vue.js*: 2+ anos
     - *Node.js*: Nest.js, Express (2+ anos)
     - *Python / Django*: 1+ ano
     - *HTML / CSS*: 8+ anos
@@ -111,7 +111,7 @@ Engenheiro de Software Sênior especializado em Ruby on Rails, com mais de 8 ano
 - Contratado como engenheiro sênior para estabilizar uma plataforma de aprendizagem com recursos de IA (recrutamento e treinamento), em um contrato fixo de seis meses.
 - Uni um conjunto disperso de microsserviços em um produto coeso adicionando uma camada de fronteira clara (um BFF), reutilizando os serviços existentes em vez de reescrevê-los. Responsável pelos contratos de serviço e design de API, trazendo hábitos de modernização do trabalho anterior com Rails (fronteiras claras, testes de contrato) para um stack TypeScript e Express.
 - Entreguei recursos de chat e entrevista guiada baseados em IA (Gemini, OpenAI) com rastreamento por chamada de uso de tokens, custo e modelo no Prometheus e Grafana, para que o time enxergasse o custo real dos recursos de IA.
-#stack[TypeScript, Express, Next.js, Docker, Linux, MySQL, DynamoDB, LLM APIs.]
+#stack[TypeScript, Express, React, Next.js, Docker, Linux, MySQL, DynamoDB, LLM APIs.]
 
 #v(0.6em)
 #role[Engenheiro Sênior / Tech Lead (time de 8)][ByCoders (alocado na Locaweb, provedora brasileira de hospedagem web)][Abr 2024 – Mai 2025]
@@ -129,14 +129,14 @@ Engenheiro de Software Sênior especializado em Ruby on Rails, com mais de 8 ano
 - Liderei um upgrade de Rails 6 → 7 em um monólito legado sem congelar a entrega de features: desembaracei o novo autoloader (renomeando e realocando classes, resolvendo conflitos de nome), varri APIs depreciadas e entreguei a partir de um branch de vida longa com CI verde, via soak em staging, cutover único e um caminho de rollback testado.
 - Refatorei módulos centrais em Rails e serviços em Node; projetei como o monólito antigo e os serviços mais novos se comunicariam.
 - Transformei UI repetida (cards, tabelas, formulários) em componentes reutilizáveis e testados, substituindo templates e helpers antigos e emaranhados, renderizados com Hotwire para adoção incremental.
-#stack[Ruby on Rails, Ruby, TypeScript, Vue.js, Python, Django, Docker, PostgreSQL, MongoDB, Redis.]
+#stack[Ruby on Rails, Ruby, TypeScript, React, Vue.js, Python, Django, Docker, PostgreSQL, MongoDB, Redis.]
 
 #v(0.6em)
 #role[Engenheiro Sênior / Tech Lead (time de 3–4)][CPmídias / Jornal Brasil de Fato (veículo de notícias nacional)][Fev 2020 – Fev 2023]
 - Engenheiro Rails sênior na plataforma de publicação de um veículo de notícias independente nacional. Adicionei cache de borda (Cloudflare) e ajustei o tempo de cache por página, com atualização automática ao publicar ou editar, para que os editores vissem as mudanças na hora. Durante as eleições gerais de 2022 no Brasil, o site absorveu cerca de 100× o tráfego normal na mesma infraestrutura, sem escalar horizontalmente e sem custo extra.
 - Encontrei e corrigi queries lentas em um banco Postgres herdado com poucos índices: adicionei os índices faltantes, pré-computei queries analíticas pesadas e rodei migrations em tabelas movimentadas (artigos, publicações) sem downtime.
 - Liderei o pequeno time de desenvolvimento como líder de TI: decisões técnicas, estimativas, cadência ágil e mentoria de engenheiros juniores via pareamento e code review.
-#stack[Ruby on Rails, Ruby, TypeScript, Nest.js, WordPress, Docker, Linux, AWS, PostgreSQL, MongoDB, Redis.]
+#stack[Ruby on Rails, Ruby, TypeScript, Nest.js, Vue.js, WordPress, Docker, Linux, AWS, PostgreSQL, MongoDB, Redis.]
 
 #v(0.6em)
 #role[Engenheiro Sênior / Tech Lead (time de 4–6)][Refinaria de Dados][Dez 2018 – Fev 2020]

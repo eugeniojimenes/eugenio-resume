@@ -54,7 +54,7 @@
 
 #v(0.6em)
 
-Senior Ruby on Rails engineer with 8+ years shipping and running production apps, from Rails 5 to 8, including several major-version upgrades on older systems. Hands on the code while leading: backend services and APIs, frontend integration, Docker and AWS deploys, and keeping an eye on how the app behaves once it is live (Prometheus metrics, structured logs, call-level tracking of LLM usage). B.Sc. in Computer Science from the University of São Paulo (USP). Has led small teams (3–8 people) without stepping away from daily coding; now focused on senior remote backend roles.
+Senior Ruby on Rails engineer with 8+ years shipping and running production apps, from Rails 5 to 8, including several major-version upgrades on older systems. Hands on the code while leading: backend services and APIs, frontend integration, Docker and AWS deploys, and keeping an eye on how the app behaves once it is live (Prometheus metrics, structured logs, call-level tracking of LLM usage). B.Sc. in Computer Science from the University of São Paulo (USP). Has led small teams (3–8 people) without stepping away from daily coding; now focused on senior remote roles, backend-leaning but full-stack across the stack.
 
 // ---- contact ------------------------------------------------------
 #section[Contact]
@@ -75,7 +75,7 @@ Senior Ruby on Rails engineer with 8+ years shipping and running production apps
     - *Ruby on Rails*: 8+ years (Rails 5 to 8, including upgrades)
     - *Ruby*: 8+ years (RSpec, Sidekiq, ActiveRecord, Hotwire/Turbo, ViewComponent)
     - *JavaScript / TypeScript*: 6+ years
-    - *Vue.js*: 1+ year
+    - *React / Vue.js*: 2+ years
     - *Node.js*: Nest.js, Express (2+ years)
     - *Python / Django*: 1+ year
     - *HTML / CSS*: 8+ years
@@ -110,7 +110,7 @@ Senior Ruby on Rails engineer with 8+ years shipping and running production apps
 - Brought in as a senior engineer to stabilize a learning platform with AI features (recruiting and training) on a fixed six-month engagement.
 - Pulled a scattered set of microservices into one coherent product by adding a clear boundary layer (a BFF), reusing existing services instead of rewriting them. Owned the service contracts and API design, bringing modernization habits from prior Rails work (clear boundaries, contract tests) to a TypeScript and Express stack.
 - Shipped AI-backed chat and guided-interview features (Gemini, OpenAI) with per-call tracking of token use, cost, and model on Prometheus and Grafana, so the team could see what the AI features actually cost.
-#stack[TypeScript, Express, Next.js, Docker, Linux, MySQL, DynamoDB, LLM APIs.]
+#stack[TypeScript, Express, React, Next.js, Docker, Linux, MySQL, DynamoDB, LLM APIs.]
 
 #v(0.6em)
 #role[Senior Engineer / Tech Lead (squad of 8)][ByCoders (contracted to Locaweb, a Brazilian web-hosting provider)][Apr 2024 – May 2025]
@@ -128,14 +128,14 @@ Senior Ruby on Rails engineer with 8+ years shipping and running production apps
 - Led a Rails 6 → 7 upgrade on a legacy monolith without freezing feature delivery: untangled the new autoloader (renaming and relocating classes, resolving naming conflicts), swept deprecated APIs, then shipped from one long-lived branch behind green CI via staging soak, single cutover, and a tested rollback path.
 - Refactored core Rails modules and Node services; designed how the old monolith and the newer services would talk to each other.
 - Turned repeated UI (cards, tables, forms) into reusable, unit-tested components, replacing tangled old templates and helpers, rendered with Hotwire for incremental adoption.
-#stack[Ruby on Rails, Ruby, TypeScript, Vue.js, Python, Django, Docker, PostgreSQL, MongoDB, Redis.]
+#stack[Ruby on Rails, Ruby, TypeScript, React, Vue.js, Python, Django, Docker, PostgreSQL, MongoDB, Redis.]
 
 #v(0.6em)
 #role[Senior Engineer / Tech Lead (squad of 3–4)][CPmídias / Jornal Brasil de Fato (national news outlet)][Feb 2020 – Feb 2023]
 - Senior Rails engineer on the publishing platform for a national independent news outlet. Added edge caching (Cloudflare) and tuned per-page cache lifetimes, with an automatic refresh on publish or update so editors saw changes right away. During the 2022 Brazilian general election the site absorbed roughly 100× its normal traffic on the same infrastructure, no scale-out, no extra spend.
 - Found and fixed slow database queries on an inherited Postgres database with few indexes: added the missing indexes, pre-computed heavy analytics queries, and ran migrations on busy tables (articles, publications) with no downtime.
 - Led the small dev team as IT lead: technical decisions, estimates, agile cadence, and mentoring junior engineers through pairing and code review.
-#stack[Ruby on Rails, Ruby, TypeScript, Nest.js, WordPress, Docker, Linux, AWS, PostgreSQL, MongoDB, Redis.]
+#stack[Ruby on Rails, Ruby, TypeScript, Nest.js, Vue.js, WordPress, Docker, Linux, AWS, PostgreSQL, MongoDB, Redis.]
 
 #v(0.6em)
 #role[Senior Engineer / Tech Lead (squad of 4–6)][Refinaria de Dados][Dec 2018 – Feb 2020]
