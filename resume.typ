@@ -54,7 +54,7 @@
 
 #v(0.6em)
 
-Senior Ruby on Rails engineer with 8+ years shipping and running production apps, from Rails 5 to 8, including several major-version upgrades on older systems. Hands on the code while leading: backend services and APIs, frontend integration, Docker and AWS deploys, and keeping an eye on how the app behaves once it is live (Prometheus metrics, structured logs, call-level tracking of LLM usage). B.Sc. in Computer Science from the University of São Paulo (USP). Has led small teams (3–8 people) without stepping away from daily coding; now focused on senior remote roles, backend-leaning but full-stack across the stack.
+Senior Ruby on Rails engineer with 8+ years shipping and running production apps, from Rails 5 to 8, including several major-version upgrades on older systems. Hands on the code while leading: backend services and APIs, frontend integration, Docker and AWS deploys, and keeping an eye on how the app behaves once it is live (Prometheus metrics, structured logs, call-level tracking of LLM usage). B.Sc. in Computer Science from the University of São Paulo (USP). Has led small teams (3–8 people) without stepping away from daily coding. Backend-leaning, but comfortable owning a feature end to end across the full stack.
 
 // ---- contact ------------------------------------------------------
 #section[Contact]
@@ -95,17 +95,28 @@ Senior Ruby on Rails engineer with 8+ years shipping and running production apps
 #text(font: sans, weight: "medium", size: 9pt, fill: muted)[KEYWORDS: ]
 #text(
   size: 9pt,
-)[Ruby on Rails, Ruby, RSpec, Sidekiq, ActiveRecord, Hotwire, Turbo, Stimulus, ViewComponent, JavaScript, TypeScript, Vue.js, React, Node.js, Nest.js, Express, Next.js, Python, Django, HTML, CSS, PostgreSQL, MySQL, MongoDB, DynamoDB, Redis, Docker, Linux, AWS, EC2, RDS, S3, IAM, Cognito, Route 53, Prometheus, Git, GitHub Actions, CI/CD, REST APIs, microservices, event-driven, system design, code review, performance tuning, observability, BFF, LLM APIs, Scrum, Agile.]
+)[Ruby on Rails, Ruby, RSpec, Sidekiq, ActiveRecord, Hotwire, Turbo, Stimulus, ViewComponent, JavaScript, TypeScript, Vue.js, React, Node.js, Nest.js, Express, Next.js, Python, Django, HTML, CSS, PostgreSQL, MySQL, MongoDB, DynamoDB, Redis, Docker, Linux, AWS, EC2, RDS, S3, IAM, Cognito, Route 53, Prometheus, Grafana, Git, GitHub Actions, CI/CD, REST APIs, GraphQL, microservices, event-driven, system design, code review, performance tuning, observability, BFF, LLM APIs, Scrum, Agile.]
 
 // ---- communication ------------------------------------------------
 #section[Languages]
 
-- *English*: B2 (upper-intermediate, working proficiency); actively improving toward C1.
+- *English*: C1 (advanced, professional working proficiency).
 - *Brazilian Portuguese*: Native.
 
 // ---- experience ---------------------------------------------------
 #section[Professional Experience]
 
+#role[Senior Software Engineer III][Jaya Tech (embedded at Pipefy, a workflow automation SaaS)][Aug 2026 – Present]
+- Senior engineer on the Pipefy platform team, working on a multi-tenant B2B product in production.
+// Fill in with specifics (what the squad owns, what changed, numbers) once there is more context on the work.
+#stack[Ruby on Rails, GraphQL, React, PostgreSQL, Sidekiq, Redis, RSpec, Docker, Grafana.]
+
+#v(0.6em)
+#role[Career break (focused study)][Self-directed][Nov 2025 – Aug 2026]
+- Deliberate, self-funded break to go deep instead of wide: system design, data structures and algorithms, Ruby on Rails internals, all worked through in a personal Zettelkasten.
+- Structured work on English took me from B2 to C1.
+
+#v(0.6em)
 #role[Senior Engineer / Tech Lead (squad of 3–4)][AdaTech][May 2025 – Nov 2025]
 - Brought in as a senior engineer to stabilize a learning platform with AI features (recruiting and training) on a fixed six-month engagement.
 - Pulled a scattered set of microservices into one coherent product by adding a clear boundary layer (a BFF), reusing existing services instead of rewriting them. Owned the service contracts and API design, bringing modernization habits from prior Rails work (clear boundaries, contract tests) to a TypeScript and Express stack.
@@ -163,7 +174,3 @@ Senior Ruby on Rails engineer with 8+ years shipping and running production apps
   - #link("https://github.com/rubyforgood/human-essentials/pull/4229")[PR #4229]: added address, website, and agency-type fields to the partner CSV export, with tests on the Partner model.
   - #link("https://github.com/rubyforgood/human-essentials/pull/4268")[PR #4268]: fixed flaky browser tests that depended on a jQuery-driven dropdown.
 
-// ---- current ------------------------------------------------------
-#section[Current Focus]
-
-- Career break since Jan 2026: focused study and upskilling in system design, data structures and algorithms, Ruby on Rails internals, and English fluency (target: C1).
